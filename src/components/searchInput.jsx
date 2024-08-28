@@ -1,5 +1,5 @@
 import { useContext, useRef } from 'react'
-import './styles/searchinput.css'
+import './styles/searchInput.css'
 import { SearchContext } from '../context/search'
 export function SearchInput (){
   const {setSearch}= useContext(SearchContext)
