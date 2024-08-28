@@ -1,0 +1,28 @@
+.table-of-movements{
+  margin: 3vh 0 6vh 0;
+  width: 80%;
+  table-layout:auto;
+  border-collapse: collapse;
+}
+td{
+  padding: 0.3vw;
+  width: 25%;
+  border: 1px solid #333;
+}
+
+th, td {
+  width: 25%;
+  text-align: left;
+}
+th{
+  border-bottom: 1px solid #333;
+}
+th,td, tr{
+  color: #333;
+}
+.table-of-movements>td:nth-child(even){
+  background-color: #fff;
+}
+.table-of-movements>td:nth-child(odd){
+  background-color:  #FFFF99;
+}

@@ -1,0 +1,9 @@
+.header-search {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin: 3vh 0;
+}
+.search-menu{
+  display: block;
+  margin: 10vh 3vh 0 !important;
+}

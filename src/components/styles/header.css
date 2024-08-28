@@ -1,0 +1,65 @@
+.container-of-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 3vh;
+}
+.button{
+  list-style: none;
+}
+.button>a{
+  text-decoration: none;
+  padding: 3vh;
+  transition: color ease-in-out .2s,
+    background ease-in-out .3s;
+  border-radius: 2vh;
+}
+
+.pokemon>a{
+  color: #FF5C8D;
+}
+.pokemon>a:hover{
+  color: #FFF;
+  background-color: #FF5C8D;
+}
+
+.habilidades>a{
+  color: #FFD700;
+}
+.habilidades>a:hover{
+  color: #FFF;
+  background-color: #FFD700;
+}
+
+.movimientos>a{
+  color: #50C878;
+}
+.movimientos>a:hover{
+  color: #FFF;
+  background-color: #50C878;
+}
+
+.objetos>a{
+  color: #5F9EA0;
+}
+.objetos>a:hover{
+  color: #FFF;
+  background-color: #5F9EA0;
+}
+
+.bayas>a{
+  color: #FFA500;
+}
+.bayas>a:hover{
+  color: #FFF;
+  background-color: #FFA500;
+}
+
+.portfolio>a{
+  color: #BB86FC;
+}
+.portfolio>a:hover{
+  color: #FFF;
+  background-color: #BB86FC;
+}

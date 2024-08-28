@@ -1,0 +1,41 @@
+.name-of-search{
+  text-align: center;
+  padding: 2vh;
+  text-transform:capitalize;
+}
+.img-of-search{
+  margin-top: 2vh;
+  display: block;
+  width: 80%;
+  border-radius: 5vh;
+  height: auto;
+  background-color: #FFF;
+}
+.container-of-habilities{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin-top: 2vh;
+}
+.title-of-abilities{
+  text-align: center;
+  font-weight: 500;
+}
+.container-group{
+  width: 50%;
+}
+.separation-of-abilities{
+  width: 70%;
+  margin: 0.5vh auto;
+  border-color: #262626;
+}
+.abilities{
+  display: flex;
+  justify-content: space-around;
+}
+.ability>a{
+  text-decoration: none;
+}
+.input-container{
+  scale: 1.2;
+}
