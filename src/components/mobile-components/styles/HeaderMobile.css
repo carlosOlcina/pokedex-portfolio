@@ -1,0 +1,34 @@
+.header-mobile{
+  text-align: center;
+  width: 100%;
+}
+.button-menu-mobile{
+  display: flex;
+  align-items: center;
+
+  background-color: transparent;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 2vh auto 0;
+}
+.menu-displayed{
+  text-align: center;
+  display: none;
+}
+.menu-displayed>li{
+  margin: 1vh 0;
+  list-style: none;
+}
+.link-mobile{
+  text-decoration: none;
+}
+.open-menu{
+  display: block;
+}
+.pokemon{
+  color: #FF5C8D;
+}
+.portfolio{
+  color: #BB86FC;
+}

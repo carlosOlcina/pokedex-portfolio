@@ -5,17 +5,19 @@ import { SearchMenu } from "../components/searchMenu.jsx";
 import { useResultSearch } from "../hooks/useResultSearch.jsx";
 import { Footer } from "../components/footer.jsx";
 import { SearchContext } from "../context/search.jsx";
+import { HeaderMobile } from "../components/mobile-components/HeaderMobile.jsx";
 
 export function Index(){
   const {search} = useContext(SearchContext)
   const pokemon = useResultSearch(search, 'pokemon') 
-  console.log(search, 's');
-  
+  const isMovile = window.innerWidth <= 750
+
+
   
   
   return(
     <main>
-      <Header/>
+      {isMovile ? <HeaderMobile/> : <Header/>}
       <SearchMenu/>
       <BodyOfSearch data={pokemon} />
       <Footer/>

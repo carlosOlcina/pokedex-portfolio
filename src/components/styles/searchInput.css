@@ -24,3 +24,20 @@
   font-weight: 500;
   font-size: 0.9rem;
 }
+@media(max-width:750px){
+  .label-search{
+    display: block;
+    width: 100%;
+    font-size: 0.6rem;
+    text-align: center;
+  }
+  #search{
+    width: 40vw;
+  }
+  .submit-search{
+  
+    height: 5vh;
+    width: 3rem;
+    font-size: 0.8rem;
+  }
+}
